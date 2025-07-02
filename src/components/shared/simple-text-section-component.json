@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_simple_text_section_components",
+  "info": {
+    "displayName": "SimpleTextSectionComponent"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_hero_section_components",
+  "info": {
+    "displayName": "HeroSectionComponent",
+    "icon": "information"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "blocks"
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlt": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

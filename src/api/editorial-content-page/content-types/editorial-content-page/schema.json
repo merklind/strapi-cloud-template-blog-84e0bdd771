@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "editorial_content_pages",
+  "info": {
+    "singularName": "editorial-content-page",
+    "pluralName": "editorial-content-pages",
+    "displayName": "EditorialContentPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "mainContent": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.simple-text-section-component",
+        "shared.adv-fluid"
+      ],
+      "required": true
+    }
+  }
+}

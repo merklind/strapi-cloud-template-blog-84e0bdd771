@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "landings_altroconsumo",
+  "info": {
+    "singularName": "landing-altroconsumo",
+    "pluralName": "landings-altroconsumo",
+    "displayName": "Landing Altroconsumo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "shared.hero-section-component",
+      "repeatable": false
+    }
+  }
+}
